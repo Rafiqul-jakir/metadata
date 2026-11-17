@@ -6,12 +6,12 @@ EMAIL = "rafiquljakir@gmail.com"
 LANGS = ["en", "es", "fr", "it", "de"]
 FLAG = {"en": "🇬🇧 English", "es": "🇪🇸 Español", "fr": "🇫🇷 Français", "it": "🇮🇹 Italiano", "de": "🇩🇪 Deutsch"}
 # Editable statistics (shown in hero)
-STATS = ["100,000+", "", ""]
+STATS = ["300,000+", "", ""]
 
 T = {
 "en": dict(
  title="Nature.com Metadata Dataset | Scientific Publication Metadata – ResearchMeta Data",
- desc="Independent dataset of 100,000+ historical scientific publication metadata records: DOIs, titles, authors, affiliations, countries, keywords. Request a package.",
+ desc="Independent dataset of 300,000+ historical scientific publication metadata records: DOIs, titles, authors, affiliations, countries, keywords. Request a package.",
  nav=["Home","About Dataset","Data Fields","Sample Data","Packages","FAQ","Contact"], req="Request Dataset",
  h1="Unlock the World's Scientific Research Metadata.",
  lead="Access a large, structured collection of historical scientific publication metadata from Nature.com / Springer Nature. Explore scientific publications through titles, DOIs, authors, affiliations, publication dates, article types, countries, and keywords.",
@@ -24,7 +24,7 @@ T = {
  fh="Explore the Available Data Fields", fn="Metadata availability can differ across individual records.",
  sh="Preview the Dataset", ss="Explore the structure and level of detail available in the scientific publication metadata.",
  cols=["Record ID","DOI","Article Title","Journal","Publication Date","Article Type","Authors","Affiliation","Country","Keywords"],
- sd="Illustrative dataset preview. Sample records are provided to demonstrate the metadata structure and are not representations of verified records from the commercial dataset.",
+ sd="Preview of 100 records from the dataset. Metadata availability can differ across individual records.",
  ph="Choose Your Research Metadata Package", ps="Flexible dataset packages for researchers, organizations, developers, and commercial data users.",
  recs="scientific publication records", inc="Structured metadata, DOIs, titles and URLs, authors and affiliations, dates and article types, countries and keywords.",
  pop="Popular Choice", pn=["Starter Dataset","Professional Dataset","Enterprise Dataset"], pb=["Request Starter Package","Request Professional Package","Request Enterprise Package"],
@@ -38,7 +38,7 @@ T = {
  errs=["Please enter your full name.","Please enter a valid email address.","Please choose a package."],
  subj=["Dataset Purchase Inquiry – Starter (100,000 Records)","Dataset Purchase Inquiry – Professional (200,000 Records)","Dataset Purchase Inquiry – Enterprise (300,000 Records)","Dataset Purchase Inquiry – Custom Dataset"],
  body="Dear ResearchMeta Data Team,\n\nI am interested in purchasing your scientific research publication metadata dataset.\n\nMy Details:\n\nFull Name: {name}\nEmail Address: {email}\nOrganization: {org}\nSelected Package: {pkg}\nPackage Price: {price}\n\nMessage:\n\n{msg}\n\nI would appreciate further information regarding dataset availability, licensing terms, delivery format, and purchasing procedures.\n\nThank you for your time.\n\nBest regards,\n{name}",
- none="Not provided", custom="Custom quote",
+ dm="I would like to receive more information about this dataset package, including sample data, delivery format, licensing terms, and the purchasing procedure.", dl="Download Demo Data (CSV)", none="Not provided", custom="Custom quote",
  disc="This is an independently offered scientific publication metadata dataset. It is not an official Nature.com or Springer Nature product and is not affiliated with, endorsed by, or sponsored by Springer Nature.",
  fl="Structured scientific publication metadata for research, discovery, and analytics.",
  fd="ResearchMeta Data is an independent dataset offering. It is not affiliated with, sponsored by, or endorsed by Springer Nature or Nature.com. All trademarks belong to their respective owners.",
@@ -46,7 +46,7 @@ T = {
  fq=[("Is this an official Nature.com dataset?","No. It is an independently offered metadata dataset, not affiliated with Springer Nature."),("What delivery formats are available?","The preferred format can be discussed during the inquiry."),("How can I purchase a package?","Choose a package, generate the email inquiry in the contact section, and send it yourself from your email application. Nothing is sent automatically."),("Can I use the metadata for AI and machine learning?","Metadata can support classification and discovery experiments. Rights depend on the licence agreed commercially.")], faq="Frequently Asked Questions"),
 "es": dict(
  title="Dataset de metadatos de Nature.com | Metadatos de publicaciones científicas – ResearchMeta Data",
- desc="Dataset independiente con más de 100.000 registros de metadatos históricos de publicaciones científicas: DOI, títulos, autores, afiliaciones, países y palabras clave.",
+ desc="Dataset independiente con más de 300.000 registros de metadatos históricos de publicaciones científicas: DOI, títulos, autores, afiliaciones, países y palabras clave.",
  nav=["Inicio","Sobre el dataset","Campos de datos","Muestra","Paquetes","Preguntas frecuentes","Contacto"], req="Solicitar dataset",
  h1="Descubra los metadatos de la investigación científica mundial.",
  lead="Acceda a una amplia colección estructurada de metadatos históricos de publicaciones científicas de Nature.com / Springer Nature: títulos, DOI, autores, afiliaciones, fechas de publicación, tipos de artículo, países y palabras clave.",
@@ -59,7 +59,7 @@ T = {
  fh="Explore los campos de datos disponibles", fn="La disponibilidad de metadatos puede variar entre registros.",
  sh="Vista previa del dataset", ss="Explore la estructura y el nivel de detalle de los metadatos de publicaciones científicas.",
  cols=["ID de registro","DOI","Título del artículo","Revista","Fecha de publicación","Tipo de artículo","Autores","Afiliación","País","Palabras clave"],
- sd="Vista previa ilustrativa. Los registros de muestra demuestran la estructura de los metadatos y no representan registros verificados del dataset comercial.",
+ sd="Vista previa de 100 registros del dataset. La disponibilidad de metadatos puede variar entre registros.",
  ph="Elija su paquete de metadatos", ps="Paquetes flexibles para investigadores, organizaciones, desarrolladores y usuarios comerciales.",
  recs="registros de publicaciones científicas", inc="Metadatos estructurados, DOI, títulos y URL, autores y afiliaciones, fechas y tipos de artículo, países y palabras clave.",
  pop="Opción popular", pn=["Dataset Starter","Dataset Professional","Dataset Enterprise"], pb=["Solicitar paquete Starter","Solicitar paquete Professional","Solicitar paquete Enterprise"],
@@ -73,7 +73,7 @@ T = {
  errs=["Introduzca su nombre completo.","Introduzca un correo electrónico válido.","Elija un paquete."],
  subj=["Consulta de compra de dataset – Starter (100.000 registros)","Consulta de compra de dataset – Professional (200.000 registros)","Consulta de compra de dataset – Enterprise (300.000 registros)","Consulta de compra de dataset – Dataset personalizado"],
  body="Estimado equipo de ResearchMeta Data:\n\nMe interesa adquirir su dataset de metadatos de publicaciones científicas.\n\nMis datos:\n\nNombre completo: {name}\nCorreo electrónico: {email}\nOrganización: {org}\nPaquete seleccionado: {pkg}\nPrecio del paquete: {price}\n\nMensaje:\n\n{msg}\n\nAgradecería más información sobre disponibilidad, términos de licencia, formato de entrega y procedimiento de compra.\n\nGracias por su tiempo.\n\nAtentamente,\n{name}",
- none="No indicado", custom="Presupuesto a medida",
+ dm="Me gustaría recibir más información sobre este paquete de datos, incluidos datos de muestra, formato de entrega, términos de licencia y procedimiento de compra.", dl="Descargar datos de muestra (CSV)", none="No indicado", custom="Presupuesto a medida",
  disc="Este es un dataset de metadatos de publicaciones científicas ofrecido de forma independiente. No es un producto oficial de Nature.com ni de Springer Nature y no está afiliado, respaldado ni patrocinado por Springer Nature.",
  fl="Metadatos estructurados de publicaciones científicas para investigación, descubrimiento y análisis.",
  fd="ResearchMeta Data es una oferta de datos independiente. No está afiliada, patrocinada ni respaldada por Springer Nature o Nature.com. Todas las marcas pertenecen a sus respectivos propietarios.",
@@ -81,7 +81,7 @@ T = {
  fq=[("¿Es un dataset oficial de Nature.com?","No. Es un dataset de metadatos ofrecido de forma independiente, sin afiliación con Springer Nature."),("¿Qué formatos de entrega hay?","El formato preferido puede acordarse durante la consulta."),("¿Cómo compro un paquete?","Elija un paquete, genere la consulta en la sección de contacto y envíela usted mismo desde su aplicación de correo. No se envía nada automáticamente."),("¿Puedo usar los metadatos para IA?","Pueden servir para experimentos de clasificación y descubrimiento. Los derechos dependen de la licencia acordada.")], faq="Preguntas frecuentes"),
 "fr": dict(
  title="Jeu de données de métadonnées Nature.com | Métadonnées de publications scientifiques – ResearchMeta Data",
- desc="Jeu de données indépendant de plus de 100 000 métadonnées historiques de publications scientifiques : DOI, titres, auteurs, affiliations, pays, mots-clés.",
+ desc="Jeu de données indépendant de plus de 300 000 métadonnées historiques de publications scientifiques : DOI, titres, auteurs, affiliations, pays, mots-clés.",
  nav=["Accueil","À propos","Champs de données","Échantillon","Offres","FAQ","Contact"], req="Demander le jeu de données",
  h1="Accédez aux métadonnées de la recherche scientifique mondiale.",
  lead="Accédez à une vaste collection structurée de métadonnées historiques de publications scientifiques de Nature.com / Springer Nature : titres, DOI, auteurs, affiliations, dates de publication, types d'articles, pays et mots-clés.",
@@ -94,7 +94,7 @@ T = {
  fh="Découvrez les champs de données disponibles", fn="La disponibilité des métadonnées peut varier selon les enregistrements.",
  sh="Aperçu du jeu de données", ss="Découvrez la structure et le niveau de détail des métadonnées de publications scientifiques.",
  cols=["ID","DOI","Titre de l'article","Revue","Date de publication","Type d'article","Auteurs","Affiliation","Pays","Mots-clés"],
- sd="Aperçu illustratif. Les exemples servent à montrer la structure des métadonnées et ne représentent pas des enregistrements vérifiés du jeu de données commercial.",
+ sd="Aperçu de 100 enregistrements du jeu de données. La disponibilité des métadonnées peut varier selon les enregistrements.",
  ph="Choisissez votre offre de métadonnées", ps="Des offres flexibles pour chercheurs, organisations, développeurs et utilisateurs commerciaux.",
  recs="enregistrements de publications scientifiques", inc="Métadonnées structurées, DOI, titres et URL, auteurs et affiliations, dates et types d'articles, pays et mots-clés.",
  pop="Choix populaire", pn=["Jeu Starter","Jeu Professional","Jeu Enterprise"], pb=["Demander l'offre Starter","Demander l'offre Professional","Demander l'offre Enterprise"],
@@ -108,7 +108,7 @@ T = {
  errs=["Veuillez saisir votre nom complet.","Veuillez saisir une adresse e-mail valide.","Veuillez choisir une offre."],
  subj=["Demande d'achat de jeu de données – Starter (100 000 enregistrements)","Demande d'achat de jeu de données – Professional (200 000 enregistrements)","Demande d'achat de jeu de données – Enterprise (300 000 enregistrements)","Demande d'achat de jeu de données – Jeu personnalisé"],
  body="Bonjour l'équipe ResearchMeta Data,\n\nJe souhaite acquérir votre jeu de données de métadonnées de publications scientifiques.\n\nMes coordonnées :\n\nNom complet : {name}\nAdresse e-mail : {email}\nOrganisation : {org}\nOffre choisie : {pkg}\nPrix : {price}\n\nMessage :\n\n{msg}\n\nJe vous remercie de m'indiquer la disponibilité, les conditions de licence, le format de livraison et la procédure d'achat.\n\nMerci de votre temps.\n\nCordialement,\n{name}",
- none="Non renseigné", custom="Devis sur mesure",
+ dm="Je souhaite recevoir plus d'informations sur cette offre, notamment des données d'exemple, le format de livraison, les conditions de licence et la procédure d'achat.", dl="Télécharger les données de démonstration (CSV)", none="Non renseigné", custom="Devis sur mesure",
  disc="Ce jeu de métadonnées de publications scientifiques est proposé de manière indépendante. Ce n'est pas un produit officiel de Nature.com ou de Springer Nature et il n'est ni affilié, ni approuvé, ni parrainé par Springer Nature.",
  fl="Métadonnées structurées de publications scientifiques pour la recherche, la découverte et l'analyse.",
  fd="ResearchMeta Data est une offre de données indépendante, non affiliée, parrainée ou approuvée par Springer Nature ou Nature.com. Toutes les marques appartiennent à leurs propriétaires respectifs.",
@@ -116,7 +116,7 @@ T = {
  fq=[("S'agit-il d'un jeu de données officiel de Nature.com ?","Non. C'est un jeu de métadonnées proposé de façon indépendante, sans affiliation avec Springer Nature."),("Quels formats de livraison ?","Le format souhaité peut être discuté lors de la demande."),("Comment acheter une offre ?","Choisissez une offre, générez la demande dans la section contact et envoyez-la vous-même depuis votre application e-mail. Rien n'est envoyé automatiquement."),("Puis-je l'utiliser pour l'IA ?","Les métadonnées peuvent servir à des expériences de classification et de découverte. Les droits dépendent de la licence convenue.")], faq="Questions fréquentes"),
 "it": dict(
  title="Dataset di metadati Nature.com | Metadati di pubblicazioni scientifiche – ResearchMeta Data",
- desc="Dataset indipendente con oltre 100.000 record di metadati storici di pubblicazioni scientifiche: DOI, titoli, autori, affiliazioni, paesi e parole chiave.",
+ desc="Dataset indipendente con oltre 300.000 record di metadati storici di pubblicazioni scientifiche: DOI, titoli, autori, affiliazioni, paesi e parole chiave.",
  nav=["Home","Il dataset","Campi dati","Anteprima","Pacchetti","FAQ","Contatti"], req="Richiedi il dataset",
  h1="Scopri i metadati della ricerca scientifica mondiale.",
  lead="Accedi a un'ampia raccolta strutturata di metadati storici di pubblicazioni scientifiche di Nature.com / Springer Nature: titoli, DOI, autori, affiliazioni, date di pubblicazione, tipi di articolo, paesi e parole chiave.",
@@ -129,7 +129,7 @@ T = {
  fh="Esplora i campi dati disponibili", fn="La disponibilità dei metadati può variare da record a record.",
  sh="Anteprima del dataset", ss="Scopri la struttura e il livello di dettaglio dei metadati delle pubblicazioni scientifiche.",
  cols=["ID record","DOI","Titolo dell'articolo","Rivista","Data di pubblicazione","Tipo di articolo","Autori","Affiliazione","Paese","Parole chiave"],
- sd="Anteprima illustrativa. I record di esempio mostrano la struttura dei metadati e non rappresentano record verificati del dataset commerciale.",
+ sd="Anteprima di 100 record del dataset. La disponibilità dei metadati può variare da record a record.",
  ph="Scegli il tuo pacchetto di metadati", ps="Pacchetti flessibili per ricercatori, organizzazioni, sviluppatori e utenti commerciali.",
  recs="record di pubblicazioni scientifiche", inc="Metadati strutturati, DOI, titoli e URL, autori e affiliazioni, date e tipi di articolo, paesi e parole chiave.",
  pop="Scelta popolare", pn=["Dataset Starter","Dataset Professional","Dataset Enterprise"], pb=["Richiedi il pacchetto Starter","Richiedi il pacchetto Professional","Richiedi il pacchetto Enterprise"],
@@ -143,7 +143,7 @@ T = {
  errs=["Inserisci il tuo nome completo.","Inserisci un indirizzo e-mail valido.","Scegli un pacchetto."],
  subj=["Richiesta di acquisto dataset – Starter (100.000 record)","Richiesta di acquisto dataset – Professional (200.000 record)","Richiesta di acquisto dataset – Enterprise (300.000 record)","Richiesta di acquisto dataset – Dataset personalizzato"],
  body="Gentile team di ResearchMeta Data,\n\nsono interessato ad acquistare il vostro dataset di metadati di pubblicazioni scientifiche.\n\nI miei dati:\n\nNome completo: {name}\nIndirizzo e-mail: {email}\nOrganizzazione: {org}\nPacchetto scelto: {pkg}\nPrezzo del pacchetto: {price}\n\nMessaggio:\n\n{msg}\n\nVi sarei grato di ricevere informazioni su disponibilità, termini di licenza, formato di consegna e procedura di acquisto.\n\nGrazie per il tempo dedicato.\n\nCordiali saluti,\n{name}",
- none="Non indicato", custom="Preventivo personalizzato",
+ dm="Vorrei ricevere maggiori informazioni su questo pacchetto, inclusi dati di esempio, formato di consegna, termini di licenza e procedura di acquisto.", dl="Scarica i dati dimostrativi (CSV)", none="Non indicato", custom="Preventivo personalizzato",
  disc="Questo è un dataset di metadati di pubblicazioni scientifiche offerto in modo indipendente. Non è un prodotto ufficiale di Nature.com o Springer Nature e non è affiliato, approvato né sponsorizzato da Springer Nature.",
  fl="Metadati strutturati di pubblicazioni scientifiche per ricerca, scoperta e analisi.",
  fd="ResearchMeta Data è un'offerta di dati indipendente, non affiliata, sponsorizzata o approvata da Springer Nature o Nature.com. Tutti i marchi appartengono ai rispettivi proprietari.",
@@ -151,7 +151,7 @@ T = {
  fq=[("È un dataset ufficiale di Nature.com?","No. È un dataset di metadati offerto in modo indipendente, senza affiliazione con Springer Nature."),("Quali formati di consegna?","Il formato preferito può essere discusso durante la richiesta."),("Come acquisto un pacchetto?","Scegli un pacchetto, genera la richiesta nella sezione contatti e inviala tu dal tuo programma di posta. Nulla viene inviato automaticamente."),("Posso usarlo per l'IA?","I metadati possono supportare esperimenti di classificazione e scoperta. I diritti dipendono dalla licenza concordata.")], faq="Domande frequenti"),
 "de": dict(
  title="Nature.com-Metadatensatz | Metadaten wissenschaftlicher Publikationen – ResearchMeta Data",
- desc="Unabhängiger Datensatz mit über 100.000 historischen Metadaten wissenschaftlicher Publikationen: DOI, Titel, Autoren, Affiliationen, Länder, Schlagwörter.",
+ desc="Unabhängiger Datensatz mit über 300.000 historischen Metadaten wissenschaftlicher Publikationen: DOI, Titel, Autoren, Affiliationen, Länder, Schlagwörter.",
  nav=["Start","Über den Datensatz","Datenfelder","Beispieldaten","Pakete","FAQ","Kontakt"], req="Datensatz anfragen",
  h1="Erschließen Sie die Metadaten der weltweiten Forschung.",
  lead="Greifen Sie auf eine große, strukturierte Sammlung historischer Metadaten wissenschaftlicher Publikationen von Nature.com / Springer Nature zu: Titel, DOI, Autoren, Affiliationen, Veröffentlichungsdaten, Artikeltypen, Länder und Schlagwörter.",
@@ -164,7 +164,7 @@ T = {
  fh="Die verfügbaren Datenfelder im Überblick", fn="Die Verfügbarkeit der Metadaten kann je Datensatz variieren.",
  sh="Vorschau des Datensatzes", ss="Entdecken Sie Struktur und Detailgrad der Metadaten wissenschaftlicher Publikationen.",
  cols=["Datensatz-ID","DOI","Artikeltitel","Zeitschrift","Veröffentlichungsdatum","Artikeltyp","Autoren","Affiliation","Land","Schlagwörter"],
- sd="Illustrative Vorschau. Die Beispieldatensätze zeigen die Metadatenstruktur und stellen keine verifizierten Datensätze des kommerziellen Datensatzes dar.",
+ sd="Vorschau von 100 Datensätzen aus dem Datensatz. Die Verfügbarkeit der Metadaten kann je Datensatz variieren.",
  ph="Wählen Sie Ihr Metadatenpaket", ps="Flexible Pakete für Forschende, Organisationen, Entwickler und kommerzielle Nutzer.",
  recs="wissenschaftliche Publikationsdatensätze", inc="Strukturierte Metadaten, DOI, Titel und URLs, Autoren und Affiliationen, Daten und Artikeltypen, Länder und Schlagwörter.",
  pop="Beliebteste Wahl", pn=["Starter-Datensatz","Professional-Datensatz","Enterprise-Datensatz"], pb=["Starter-Paket anfragen","Professional-Paket anfragen","Enterprise-Paket anfragen"],
@@ -178,7 +178,7 @@ T = {
  errs=["Bitte geben Sie Ihren vollständigen Namen ein.","Bitte geben Sie eine gültige E-Mail-Adresse ein.","Bitte wählen Sie ein Paket."],
  subj=["Kaufanfrage Datensatz – Starter (100.000 Datensätze)","Kaufanfrage Datensatz – Professional (200.000 Datensätze)","Kaufanfrage Datensatz – Enterprise (300.000 Datensätze)","Kaufanfrage Datensatz – Individueller Datensatz"],
  body="Sehr geehrtes ResearchMeta-Data-Team,\n\nich interessiere mich für den Kauf Ihres Datensatzes mit Metadaten wissenschaftlicher Publikationen.\n\nMeine Angaben:\n\nVollständiger Name: {name}\nE-Mail-Adresse: {email}\nOrganisation: {org}\nGewähltes Paket: {pkg}\nPaketpreis: {price}\n\nNachricht:\n\n{msg}\n\nIch bitte um weitere Informationen zu Verfügbarkeit, Lizenzbedingungen, Lieferformat und Kaufablauf.\n\nVielen Dank für Ihre Zeit.\n\nMit freundlichen Grüßen\n{name}",
- none="Keine Angabe", custom="Individuelles Angebot",
+ dm="Ich möchte weitere Informationen zu diesem Datenpaket erhalten, einschließlich Beispieldaten, Lieferformat, Lizenzbedingungen und Kaufablauf.", dl="Beispieldaten herunterladen (CSV)", none="Keine Angabe", custom="Individuelles Angebot",
  disc="Dies ist ein unabhängig angebotener Datensatz mit Metadaten wissenschaftlicher Publikationen. Er ist kein offizielles Produkt von Nature.com oder Springer Nature und steht in keiner Verbindung zu Springer Nature und wird weder von diesem unterstützt noch gesponsert.",
  fl="Strukturierte Metadaten wissenschaftlicher Publikationen für Forschung, Discovery und Analyse.",
  fd="ResearchMeta Data ist ein unabhängiges Datenangebot. Es ist nicht mit Springer Nature oder Nature.com verbunden, wird nicht von diesen gesponsert oder unterstützt. Alle Marken gehören ihren jeweiligen Inhabern.",
@@ -195,7 +195,7 @@ def url(l): return BASE + ("/" if l == "en" else f"/{l}/")
 def page(l):
     t = T[l]; pre = "" if l == "en" else "../"
     ids = ["home","about","fields","sample","packages","faq","contact"]
-    nav = "".join(f'<a href="#{i}">{esc(n)}</a>' for i, n in zip(ids, t["nav"]))
+    nav = "".join(f'<a href="#{ids[k]}">{esc(t["nav"][k])}</a>' for k in [0,3,1,2,4,5,6])
     alts = "".join(f'<link rel="alternate" hreflang="{x}" href="{url(x)}">' for x in LANGS) + f'<link rel="alternate" hreflang="x-default" href="{url("en")}">'
     opts = "".join(f'<option value="{v}">{esc(o)}</option>' for v, o in zip("spec", t["opts"]))
     langs = "".join(f'<option value="{pre}{"" if x=="en" else x+"/"}"{" selected" if x==l else ""} data-l="{x}">{FLAG[x]}</option>' for x in LANGS)
@@ -203,12 +203,12 @@ def page(l):
     cards = "".join(f'<article class="card"><h3>{esc(a)}</h3><p>{esc(b)}</p></article>' for a, b in t["cards"])
     uses = "".join(f'<article class="card"><h3>{esc(a)}</h3><p>{esc(b)}</p></article>' for a, b in t["uses"])
     fields = "".join(f'<li class="f-{k}">{n}</li>' for n, k in FIELDS)
-    th = "".join(f"<th>{esc(c)}</th>" for c in t["cols"])
+    th = "".join(f"<th>{c}</th>" for c in ["link","title","type","published_date","received_date","accepted_date","country","keywords","doi","authors","affiliations","source_page"])
     pk = ""
     for i in range(3):
         pk += f'<article class="price{" pop" if i==1 else ""}">' + (f'<span class="badge">{esc(t["pop"])}</span>' if i==1 else "") + f'<h3>{esc(t["pn"][i])}</h3><div class="amt">{PRICES[i]} <small>USD</small></div><div class="recs"><b>{RECS[i]}</b> {esc(t["recs"])}</div><p>{esc(t["inc"])}</p><button class="btn" data-pkg="{"spe"[i]}">{esc(t["pb"][i])}</button></article>'
     faq = "".join(f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in t["fq"])
-    ui = dict(subj=t["subj"], body=t["body"], errs=t["errs"], ok=t["ok"], fail=t["fail"], none=t["none"], custom=t["custom"], opts=t["opts"], email=EMAIL)
+    ui = dict(dm=t["dm"], subj=t["subj"], body=t["body"], errs=t["errs"], ok=t["ok"], fail=t["fail"], none=t["none"], custom=t["custom"], opts=t["opts"], email=EMAIL)
     sd = {"@context":"https://schema.org","@graph":[
       {"@type":"Organization","name":"ResearchMeta Data","url":url(l),"email":EMAIL},
       {"@type":"WebSite","name":"ResearchMeta Data","url":url(l),"inLanguage":l},
@@ -227,12 +227,12 @@ def page(l):
 <div class="right"><select id="lang" aria-label="Language">{langs}</select><a class="btn sm" href="#contact">{esc(t["req"])}</a><button id="burger" aria-label="Menu" aria-expanded="false">☰</button></div></div></header>
 <main>
 <section id="home" class="hero"><div class="wrap two"><div><h1>{esc(t["h1"])}</h1><p class="lead">{esc(t["lead"])}</p>
-<div class="cta"><a class="btn" href="#about">{esc(t["c1"])}</a><a class="btn ghost" href="#packages">{esc(t["c2"])}</a></div><div class="stats">{stats}</div></div>
+<div class="cta"><a class="btn" href="#sample">{esc(t["c1"])}</a><a class="btn ghost" href="#packages">{esc(t["c2"])}</a></div><div class="stats">{stats}</div></div>
 <div class="viz" aria-hidden="true"><svg viewBox="0 0 420 320"><rect x="10" y="20" width="400" height="280" rx="18" fill="var(--b)"/><g fill="#ffffff22"><rect x="30" y="50" width="360" height="26" rx="6"/><rect x="30" y="86" width="360" height="26" rx="6"/><rect x="30" y="122" width="360" height="26" rx="6"/></g><g fill="var(--c)"><rect x="40" y="58" width="90" height="10" rx="3"/><rect x="40" y="94" width="130" height="10" rx="3"/><rect x="40" y="130" width="70" height="10" rx="3"/></g><g stroke="var(--a)" stroke-width="3" fill="none"><polyline points="40,270 110,225 180,245 250,190 320,205 380,165"/></g><g fill="#fff"><circle cx="110" cy="225" r="5"/><circle cx="250" cy="190" r="5"/><circle cx="380" cy="165" r="5"/></g><text x="270" y="68" fill="#fff" font-size="11" font-family="monospace">doi:10.xxxx/DEMO</text></svg></div></div></section>
+<section id="sample" class="sec"><div class="wrap"><h2>{esc(t["sh"])}</h2><p class="sub">{esc(t["ss"])}</p><div class="tw" tabindex="0"><table><thead><tr>{th}</tr></thead><tbody id="rows"></tbody></table></div><p class="note">{esc(t["sd"])}</p><div class="cta"><a class="btn" href="{pre}assets/sample-data.csv" download>⬇ {esc(t["dl"])}</a><a class="btn ghost" href="#packages">{esc(t["c2"])}</a></div></div></section>
 <section id="about" class="sec"><div class="wrap"><h2>{esc(t["ah"])}</h2><p class="sub">{esc(t["ap"])}</p><div class="grid4">{cards}</div>
 <h2 class="mt">{esc(t["uh"])}</h2><div class="grid3">{uses}</div></div></section>
 <section id="fields" class="sec alt"><div class="wrap"><h2>{esc(t["fh"])}</h2><ul class="chips">{fields}</ul><p class="note">{esc(t["fn"])}</p></div></section>
-<section id="sample" class="sec"><div class="wrap"><h2>{esc(t["sh"])}</h2><p class="sub">{esc(t["ss"])}</p><div class="tw"><table><thead><tr>{th}</tr></thead><tbody id="rows"></tbody></table></div><p class="note">{esc(t["sd"])}</p><a class="btn" href="#packages">{esc(t["c2"])}</a></div></section>
 <section id="packages" class="sec alt"><div class="wrap"><h2>{esc(t["ph"])}</h2><p class="sub">{esc(t["ps"])}</p><div class="grid3 pr">{pk}</div><p class="note">{esc(t["pnote"])}</p></div></section>
 <section id="faq" class="sec"><div class="wrap narrow"><h2>{esc(t["faq"])}</h2>{faq}</div></section>
 <section id="contact" class="sec alt"><div class="wrap narrow"><h2>{esc(t["kh"])}</h2><p class="sub"><a class="mail" href="mailto:{EMAIL}">{EMAIL}</a> <button class="btn ghost sm" id="cpmail" type="button">{esc(t["cb"].split()[0])} ✉</button></p><p class="sub">{esc(t["kp"])}</p>

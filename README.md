@@ -14,7 +14,8 @@ Canonical, hreflang, Open Graph, JSON-LD, `sitemap.xml` and `robots.txt` contain
 ## 3. Editing
 - **Text/translations, prices display, stats, FAQ:** edit the `T` dictionary, `PRICES`, `RECS`, `STATS` in `build.py`, then rebuild. Email subject/body templates are in `T[lang]["subj"/"body"]`.
 - **Package prices used in the generated email:** `P` object at the top of `script.js` (change it too).
-- **10 sample records:** replace rows in `data.js` (same column order as the table).
+- **Sample records + demo download:** run `python make_data.py your-file.csv` (comma-separated UTF-8 CSV). It writes `data.js` (the table) and `assets/sample-data.csv` (the download button file). Columns shown/downloaded are listed in `COLS` in `make_data.py`; if you change them, also change the header list in `build.py` (search `published_date`) and rebuild.
+- **Default inquiry message:** `dm` key in `T`; used whenever the visitor leaves Message empty.
 - **Contact email:** change `EMAIL` in `build.py` and rebuild.
 - **Licensing/legal text:** `lic`, `disc`, `fd` keys in `T`.
 - **Colors per language:** `[data-theme=xx]` variables in `styles.css`.
