@@ -1,5 +1,5 @@
 (function(){
-var $=function(i){return document.getElementById(i)},I=JSON.parse($('i18n').textContent),P={s:'$1,000',p:'$1,500',e:'$2,000',c:null},cur=null;
+var $=function(i){return document.getElementById(i)},I=JSON.parse($('i18n').textContent),P={s:'$99',p:'$199',e:'$299',c:null},cur=null;
 $('yr').textContent=new Date().getFullYear();
 var tb=$('rows'),fr=document.createDocumentFragment();(window.SAMPLE_DATA||[]).forEach(function(r){var tr=document.createElement('tr');r.forEach(function(c,i){var td=document.createElement('td');td.title=c;if(i==0||i==11){if(i==0){var a=document.createElement('a');a.href=c;a.target='_blank';a.rel='noopener nofollow';a.textContent=c;td.appendChild(a)}else td.textContent=c}else td.textContent=c;if(i==8)td.className='doi';tr.appendChild(td)});fr.appendChild(tr)});tb.appendChild(fr);
 $('lang').addEventListener('change',function(e){try{localStorage.setItem('lang',e.target.selectedOptions[0].dataset.l)}catch(x){}location.href=e.target.value});

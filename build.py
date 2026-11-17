@@ -32,7 +32,7 @@ T = {
  kh="Interested in Purchasing the Dataset?", kp="Choose your preferred dataset package and prepare your inquiry. Simply copy the generated email subject and message, then send them to our contact email address.",
  lab=["Full Name","Email Address","Organization (Optional)","Dataset Package","Message"],
  ph_=["Enter your full name","Enter your email address","University, company, research institution, or independent researcher","Tell us about your requirements, intended usage, preferred format, or questions about the dataset."],
- opts=["Starter Dataset — 100,000 Records — $1,000","Professional Dataset — 200,000 Records — $1,500","Enterprise Dataset — 300,000 Records — $2,000","Custom Dataset Inquiry"],
+ opts=["Starter Dataset — 100,000 Records — $99","Professional Dataset — 200,000 Records — $199","Enterprise Dataset — 300,000 Records — $299","Custom Dataset Inquiry"],
  gen="Generate Email Inquiry", priv="Your information is processed locally in your browser to generate an email inquiry. This website does not submit or store your form information. You must send the generated email yourself.",
  to="To",sub="Subject",msg="Message",cs="Copy Subject",cb="Copy Email Message",ca="Copy Full Email",op="Open Email Application",ok="Copied successfully!",fail="Copy failed. Please select the text and copy it manually.",
  errs=["Please enter your full name.","Please enter a valid email address.","Please choose a package."],
@@ -67,7 +67,7 @@ T = {
  kh="¿Le interesa comprar el dataset?", kp="Elija su paquete y prepare su consulta. Copie el asunto y el mensaje generados y envíelos a nuestra dirección de correo.",
  lab=["Nombre completo","Correo electrónico","Organización (opcional)","Paquete de datos","Mensaje"],
  ph_=["Introduzca su nombre completo","Introduzca su correo electrónico","Universidad, empresa, institución o investigador independiente","Cuéntenos sus requisitos, uso previsto, formato preferido o dudas sobre el dataset."],
- opts=["Dataset Starter — 100.000 registros — $1,000","Dataset Professional — 200.000 registros — $1,500","Dataset Enterprise — 300.000 registros — $2,000","Consulta de dataset personalizado"],
+ opts=["Dataset Starter — 100.000 registros — $99","Dataset Professional — 200.000 registros — $199","Dataset Enterprise — 300.000 registros — $299","Consulta de dataset personalizado"],
  gen="Generar consulta por correo", priv="Su información se procesa localmente en su navegador para generar la consulta. Este sitio no envía ni almacena los datos del formulario. Usted debe enviar el correo generado.",
  to="Para",sub="Asunto",msg="Mensaje",cs="Copiar asunto",cb="Copiar mensaje",ca="Copiar correo completo",op="Abrir aplicación de correo",ok="¡Copiado correctamente!",fail="No se pudo copiar. Seleccione el texto y cópielo manualmente.",
  errs=["Introduzca su nombre completo.","Introduzca un correo electrónico válido.","Elija un paquete."],
@@ -102,7 +102,7 @@ T = {
  kh="Intéressé par l'achat du jeu de données ?", kp="Choisissez votre offre et préparez votre demande. Copiez l'objet et le message générés, puis envoyez-les à notre adresse e-mail.",
  lab=["Nom complet","Adresse e-mail","Organisation (facultatif)","Offre de données","Message"],
  ph_=["Saisissez votre nom complet","Saisissez votre adresse e-mail","Université, entreprise, institution ou chercheur indépendant","Décrivez vos besoins, l'usage prévu, le format souhaité ou vos questions."],
- opts=["Jeu Starter — 100 000 enregistrements — 1 000 $","Jeu Professional — 200 000 enregistrements — 1 500 $","Jeu Enterprise — 300 000 enregistrements — 2 000 $","Demande de jeu personnalisé"],
+ opts=["Jeu Starter — 100 000 enregistrements — 99 $","Jeu Professional — 200 000 enregistrements — 199 $","Jeu Enterprise — 300 000 enregistrements — 299 $","Demande de jeu personnalisé"],
  gen="Générer la demande par e-mail", priv="Vos informations sont traitées localement dans votre navigateur pour générer la demande. Ce site ne transmet ni ne stocke vos données. Vous devez envoyer vous-même l'e-mail généré.",
  to="À",sub="Objet",msg="Message",cs="Copier l'objet",cb="Copier le message",ca="Copier l'e-mail complet",op="Ouvrir l'application e-mail",ok="Copié avec succès !",fail="Échec de la copie. Sélectionnez le texte et copiez-le manuellement.",
  errs=["Veuillez saisir votre nom complet.","Veuillez saisir une adresse e-mail valide.","Veuillez choisir une offre."],
@@ -137,7 +137,7 @@ T = {
  kh="Vuoi acquistare il dataset?", kp="Scegli il pacchetto e prepara la richiesta. Copia l'oggetto e il messaggio generati e inviali al nostro indirizzo e-mail.",
  lab=["Nome completo","Indirizzo e-mail","Organizzazione (facoltativo)","Pacchetto dati","Messaggio"],
  ph_=["Inserisci il tuo nome completo","Inserisci il tuo indirizzo e-mail","Università, azienda, istituto o ricercatore indipendente","Descrivi le tue esigenze, l'uso previsto, il formato preferito o le tue domande."],
- opts=["Dataset Starter — 100.000 record — $1.000","Dataset Professional — 200.000 record — $1.500","Dataset Enterprise — 300.000 record — $2.000","Richiesta di dataset personalizzato"],
+ opts=["Dataset Starter — 100.000 record — $99","Dataset Professional — 200.000 record — $199","Dataset Enterprise — 300.000 record — $299","Richiesta di dataset personalizzato"],
  gen="Genera la richiesta e-mail", priv="Le tue informazioni sono elaborate localmente nel browser per generare la richiesta. Questo sito non invia né memorizza i dati del modulo. Devi inviare tu stesso l'e-mail generata.",
  to="A",sub="Oggetto",msg="Messaggio",cs="Copia oggetto",cb="Copia messaggio",ca="Copia e-mail completa",op="Apri l'app di posta",ok="Copiato con successo!",fail="Copia non riuscita. Seleziona il testo e copialo manualmente.",
  errs=["Inserisci il tuo nome completo.","Inserisci un indirizzo e-mail valido.","Scegli un pacchetto."],
@@ -172,7 +172,7 @@ T = {
  kh="Interesse am Kauf des Datensatzes?", kp="Wählen Sie Ihr Paket und bereiten Sie Ihre Anfrage vor. Kopieren Sie Betreff und Nachricht und senden Sie sie an unsere E-Mail-Adresse.",
  lab=["Vollständiger Name","E-Mail-Adresse","Organisation (optional)","Datenpaket","Nachricht"],
  ph_=["Geben Sie Ihren vollständigen Namen ein","Geben Sie Ihre E-Mail-Adresse ein","Universität, Unternehmen, Forschungseinrichtung oder unabhängige Forschung","Beschreiben Sie Ihre Anforderungen, den Verwendungszweck, das gewünschte Format oder Ihre Fragen."],
- opts=["Starter-Datensatz — 100.000 Datensätze — 1.000 $","Professional-Datensatz — 200.000 Datensätze — 1.500 $","Enterprise-Datensatz — 300.000 Datensätze — 2.000 $","Anfrage für individuellen Datensatz"],
+ opts=["Starter-Datensatz — 100.000 Datensätze — 99 $","Professional-Datensatz — 200.000 Datensätze — 199 $","Enterprise-Datensatz — 300.000 Datensätze — 299 $","Anfrage für individuellen Datensatz"],
  gen="E-Mail-Anfrage erstellen", priv="Ihre Angaben werden lokal in Ihrem Browser verarbeitet, um eine E-Mail-Anfrage zu erstellen. Diese Website übermittelt oder speichert keine Formulardaten. Sie müssen die erstellte E-Mail selbst senden.",
  to="An",sub="Betreff",msg="Nachricht",cs="Betreff kopieren",cb="Nachricht kopieren",ca="Gesamte E-Mail kopieren",op="E-Mail-Programm öffnen",ok="Erfolgreich kopiert!",fail="Kopieren fehlgeschlagen. Markieren Sie den Text und kopieren Sie ihn manuell.",
  errs=["Bitte geben Sie Ihren vollständigen Namen ein.","Bitte geben Sie eine gültige E-Mail-Adresse ein.","Bitte wählen Sie ein Paket."],
@@ -187,7 +187,7 @@ T = {
 }
 HL = {"en":"en","es":"es","fr":"fr","it":"it","de":"de"}
 FIELDS = [("DOI","id"),("Article Title","text"),("Article URL","link"),("Journal","text"),("Article Type","text"),("Publication Date","date"),("Received Date","date"),("Accepted Date","date"),("Authors","people"),("Affiliations","people"),("Country","geo"),("Keywords","text")]
-PRICES = ["$1,000","$1,500","$2,000"]; RECS = ["100,000","200,000","300,000"]
+PRICES = ["$99","$199","$299"]; RECS = ["100,000","200,000","300,000"]
 
 def esc(s): return s.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace('"',"&quot;")
 def url(l): return BASE + ("/" if l == "en" else f"/{l}/")
